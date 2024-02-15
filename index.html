@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="left">
+      <img src="./images/logo.svg" alt="logo" id="logo">
+
+      <div class="bg-mobile">
+        <img src="./images/hero-mobile.jpg" alt="hero-mobile" id="bg-mobile">
+      </div>
+      
+
+      <h2 class="title">
+        <span>We're</span> coming soon
+      </h2>
+
+      <p id="paragraph">
+        Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.
+      </p>
+
+      <form autocomplete="off">
+        <div class="inputs">
+          <input type="email" name="email" id="input-email" placeholder="Email Address" required>
+          <label for="email">
+            <img src="./images/icon-error.svg" alt="icon-error" id="err-icon">
+          </label>
+        
+          <button type="submit">
+            <img src="./images/icon-arrow.svg" alt="icon-arrow" id="icon-arrow">
+          </button>
+        </div>
+      </form>
+
+
+      <span class="err-message">Please provide a valid email</span>
+
+    </div>
+
+    <div class="right">
+      <!-- <img src="./images/hero-desktop.jpg" alt="hero-desktop" id="hero"> -->
+    </div>
+  </div>
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/filipefma" target="_blank">Filipe Maia</a>.
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
